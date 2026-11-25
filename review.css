@@ -1,0 +1,10 @@
+/* 검토용 미리 보기 띠(실제 사이트에는 없음) */
+.rv-bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 80; box-shadow: 0 -1px 0 rgba(0,0,0,.15); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 20px; padding: 9px max(20px, calc((100% - 1440px) / 2 + 40px)); background: #c9a45c; color: #1a1a1a; font: 500 15px/1.5 "Wanted Sans", system-ui, sans-serif; }
+.rv-t { font-weight: 700; }
+.rv-links { display: flex; flex-wrap: wrap; gap: 4px 18px; }
+.rv-bar a { color: #1a1a1a; text-decoration: underline; text-decoration-color: rgba(26, 26, 26, .35); text-underline-offset: .25em; padding-block: 2px; }
+.rv-bar a[aria-current="page"] { font-weight: 700; text-decoration-color: #1a1a1a; }
+.rv-bar a:focus-visible { outline: 2px solid #13203a; outline-offset: 2px; }
+@media print { .rv-bar { display: none; } }
+body { padding-bottom: 46px; }
+@media (max-width: 640px) { body { padding-bottom: 104px; } .rv-bar { font-size: 14px; padding: 8px 16px; } }
