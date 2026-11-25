@@ -3005,8 +3005,8 @@ summary:hover .who-tg { color: var(--ink); }
 .prose .who-acts li + li { margin-top: 0; }
 .who-yr .who-acts { margin-bottom: var(--sp-3); }
 .who-acts time { color: var(--sub); font-size: var(--fs-meta); }
-.tl-link { color: inherit; text-decoration: underline; text-decoration-color: var(--link-line); text-underline-offset: .25em; }
-.tl-link:hover { text-decoration-color: currentColor; }
+.tl-link { color: inherit; text-decoration: none; }
+.tl-link:hover { color: var(--gold-deep); }
 
 .who-dim { position: fixed; inset: 0; z-index: 90; background: rgba(8, 16, 32, .55); }
 .who-panel { position: fixed; top: 0; right: 0; bottom: 0; z-index: 100; width: min(540px, 100%); overflow-y: auto; overscroll-behavior: contain; background: var(--paper); color: var(--ink); padding: var(--sp-6); --focus: var(--navy); }
