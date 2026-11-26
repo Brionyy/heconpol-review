@@ -3005,6 +3005,16 @@ summary:hover .who-tg { color: var(--ink); }
 .prose .who-acts li + li { margin-top: 0; }
 .who-yr .who-acts { margin-bottom: var(--sp-3); }
 .who-acts time { color: var(--sub); font-size: var(--fs-meta); }
+/* 활동 묶음 보기(2026-11-25 'WHO 보기 방식' = 활동): 협약 업무 계획 이름 아래 날짜순 */
+.who-span { color: var(--sub); font-size: var(--fs-meta); font-weight: 400; margin-left: var(--sp-2); }
+.who-grps { max-width: none; }
+.who-grp + .who-grp { margin-top: var(--sp-6); }
+.who-grp-h { padding: 0 0 var(--sp-3) var(--sp-4); border-left: 2px solid var(--gold); }
+.prose .who-grp-tag, .who-grp-tag { margin: 0; color: var(--sub); font-size: var(--fs-meta); font-variant-numeric: tabular-nums; }
+.prose .who-grp-name, .who-grp-name { margin: var(--sp-1) 0 0; font-family: var(--display); font-weight: var(--display-weight); letter-spacing: var(--display-track); font-size: var(--fs-lead); line-height: 1.45; }
+.who-grp .who-acts li:last-child { border-bottom: 1px solid var(--line); }
+.who-grp--panel + .who-grp--panel { margin-top: var(--sp-5); }
+.who-grp--panel .who-grp-name { font-size: var(--fs-body); }
 .tl-link { color: inherit; text-decoration: none; }
 .tl-link:hover { color: var(--gold-deep); }
 
