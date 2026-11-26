@@ -2988,6 +2988,8 @@ html .btn[disabled],
 .who-name { font-size: var(--fs-lead); line-height: 1.5; margin: 0; }
 .who-meta { color: var(--sub); font-size: var(--fs-meta); margin: var(--sp-2) 0 0; font-variant-numeric: tabular-nums; }
 .who-h { font-size: var(--fs-h3); margin: var(--sp-6) 0 var(--sp-3); }
+/* 2026-11-26 연구자: 활동 목록은 넓은 화면에서 왼쪽 제목 칸 아래까지 펼친다 */
+.who-all { grid-column: 1 / -1; }
 .who-years { max-width: none; }
 .who-yr { border-top: 1px solid var(--line); }
 .who-yr:last-child { border-bottom: 1px solid var(--line); }
